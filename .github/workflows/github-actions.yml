@@ -23,7 +23,7 @@ jobs:
           - name: Checkout submodules
             run : git submodule update --init --recursive
           - name: Run full test
-            run: ./full-test.sh
+            run: make -C finder-app && ./full-test.sh
 
     cross-compile:
         runs-on: ubuntu-24.04
