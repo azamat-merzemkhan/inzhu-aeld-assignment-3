@@ -33,3 +33,5 @@ Implementation assistance: OpenAI Codex, based on the official course starter co
 Validation: Linux unit tests, native writer regression, and ARM cross compilation passed in GitHub Actions. The committed assignment2 cross-compiler reports were produced by run 43622609409 using the same writer source and toolchain.
 
 Assignment 3 Part 2: manual ARM64 Linux and BusyBox rootfs build. The build script and CI setup reuse the account owner's prior implementation with OpenAI Codex assistance. Kernel/QEMU validation is performed by full-test CI.
+
+Assignment 4 Part 1 mutex/thread implementation reused with permission from the hosting account owner’s earlier assignment, with OpenAI Codex assistance.
