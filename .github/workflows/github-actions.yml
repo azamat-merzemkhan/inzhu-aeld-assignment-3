@@ -23,7 +23,10 @@ jobs:
           - name: Checkout submodules
             run : git submodule update --init --recursive
           - name: Run native writer regression
-            run: make -C finder-app && cd finder-app && ./finder-test.sh
+            run: |
+              make -C finder-app
+              cd finder-app
+              ./finder-test.sh
 
     cross-compile:
         runs-on: ubuntu-24.04
